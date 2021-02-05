@@ -1,0 +1,38 @@
+EXPORTS
+    Clear @1
+    Layout_str @2
+    PopFileInitialize @3
+    PopFileOpenDlg @4
+    Read @5
+    Scroll_Pos @6
+
+IMPORTS
+
+    COMDLG32.dll.ChooseColorA
+    COMDLG32.dll.ChooseColorW
+    COMDLG32.dll.ChooseFontA
+    COMDLG32.dll.ChooseFontW
+    COMDLG32.dll.CommDlgExtendedError
+    COMDLG32.dll.DllCanUnloadNow
+    COMDLG32.dll.DllGetClassObject
+    COMDLG32.dll.FindTextA
+    COMDLG32.dll.FindTextW
+    COMDLG32.dll.GetFileTitleA
+    COMDLG32.dll.GetFileTitleW
+    COMDLG32.dll.GetOpenFileNameA
+    COMDLG32.dll.GetOpenFileNameW
+    COMDLG32.dll.GetSaveFileNameA
+    COMDLG32.dll.GetSaveFileNameW
+    COMDLG32.dll.LoadAlterBitmap
+    COMDLG32.dll.PageSetupDlgA
+    COMDLG32.dll.PageSetupDlgW
+    COMDLG32.dll.PrintDlgA
+    COMDLG32.dll.PrintDlgExA
+    COMDLG32.dll.PrintDlgExW
+    COMDLG32.dll.PrintDlgW
+    COMDLG32.dll.ReplaceTextA
+    COMDLG32.dll.ReplaceTextW
+    COMDLG32.dll.Ssync_ANSI_UNICODE_Struct_For_WOW
+    COMDLG32.dll.WantArrows
+    COMDLG32.dll.dwLBSubclass
+    COMDLG32.dll.dwOKSubclass

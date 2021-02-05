@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1612383235 source:e:\documents\visual-studio-2008\projects\dll4\main.c
+	"Interface.h"
+
+1612287288 e:\documents\visual-studio-2008\projects\dll4\interface.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<commdlg.h>
+

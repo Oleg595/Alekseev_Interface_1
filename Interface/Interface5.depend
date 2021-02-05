@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1608074986 source:e:\documents\visual-studio-2008\projects\interface5\menu.rc
+	"Menu.h"
+
+1608074986 e:\documents\visual-studio-2008\projects\interface5\menu.h
+
+1612554732 source:e:\documents\visual-studio-2008\projects\interface5\winmain.c
+	"Menu.h"
+	"Interface.h"
+	<windows.h>
+	<commdlg.h>
+	<stdio.h>
+	<stdlib.h>
+
+1612389422 e:\documents\visual-studio-2008\projects\interface5\interface.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<commdlg.h>
+

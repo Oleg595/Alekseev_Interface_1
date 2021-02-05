@@ -1,0 +1,15 @@
+#include"Menu.h"
+
+Menu MENU
+{
+    POPUP "&File"{//меню, содержащее кнопки открытия файла, закрытия файла и закрытия программы
+        MENUITEM "&Open...", IDM_OPEN//открытие файла
+        MENUITEM "&Close", IDM_CLOSE//закрытие файла
+        MENUITEM "&Exit", IDM_EXIT//закрытие программы
+    }
+
+    POPUP "&Mode"{//меню, содержащее режимы отрисовки
+        MENUITEM "&Ordinary", IDM_ORDINARY_MODE, GRAYED//обычный, изначально является недостпным, так как программа начинается с обычного режима
+        MENUITEM "&Layout", IDM_LAYOUT_MODE//вёртка, доступен
+    }
+}
